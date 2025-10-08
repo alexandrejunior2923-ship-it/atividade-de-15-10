@@ -32,19 +32,14 @@
     list-style: none;
     display: flex;
     gap: 15px;
-    flex-wrap: wrap;
   }
   
   nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
   }
   
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
+ 
   /* Banner */
   .banner {
     background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
@@ -150,5 +145,5 @@
   }
   
   .redes-sociais a:hover {
-    text-decoration: underline;
+    text-decoration: underline;/* para adicionar ou remover linhas decorativas no texto, como um sublinhado, um traçado (riscado), uma sobrelinha, ou uma combinação delas*/
   }
